@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+in.txt
+out.txt
+Thumbs.db
+Desktop.ini
