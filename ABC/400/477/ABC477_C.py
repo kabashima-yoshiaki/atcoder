@@ -1,19 +1,23 @@
 q=int(input())
 s=input()
 t=input()
-
-kouho=[]
+kouho = []
+import bisect
 for i in range(len(s)-len(t)+1):
     if s[i:i+len(t)] == t:
-        kouho.append([i,i+len(t)-1])
-
+        kouho.append(i+1)
 for _ in range(q):
-    l,r=map(int, input().split())
-    l -= 1
-    r -= 1
-    for i, j in kouho:
-        if l <= i and r >= j:
-            print("Yes")
-            break
-    else:
+    l, r = map(int,input().split())
+    if r - l < len(t)-1 or bisect.bisect_left(kouho, l) >= len(kouho):
         print("No")
+        continue
+    else:
+        if kouho[bisect.bisect_left(kouho, l)] + len(t) -1 <= r:
+            print("Yes")
+        else:
+            print("No")
+
+
+
+
+
