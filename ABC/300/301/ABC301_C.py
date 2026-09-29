@@ -32,7 +32,7 @@ for i in range(26):
 
 sums = sum(alfas[:26])
 sumt = sum(alfat[:26])
-if sums > alfas[26] and sumt > alfat[26]:
+if sums > alfat[26] and sumt > alfas[26]:
     print("No")
 else:
     for i in range(26):
