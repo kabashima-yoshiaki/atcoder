@@ -10,7 +10,6 @@ for a in A:
     if a != paid*1000:
         paid += 1
     money_back = str(paid*1000 - a)
-    print(money_back)
     money_back_number = money_back.zfill(3)
 
     hundred_sum += int(money_back_number[0])
