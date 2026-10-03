@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # =====================
 # BFS（幅優先探索）
 # =====================
@@ -18,3 +19,4 @@ def bfs(G, s):
                 dist[nv] = dist[v] + 1
                 q.append(nv)
     return dist
+
