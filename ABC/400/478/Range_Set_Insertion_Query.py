@@ -1,6 +1,9 @@
 n,q=map(int,input().split())
-s = [{} for _ in range(n)]
-print(s)
+s = [set() for _ in range(n)]
+
 for _ in range(q):
     l,r,x=map(int,input().split())
-    
+    for i in range(l-1,r):
+        s[i].add(x)
+for s_i in s:
+    print(len(s_i),end=" ")
