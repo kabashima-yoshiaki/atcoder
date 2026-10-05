@@ -1,0 +1,14 @@
+# Python が自動生成するキャッシュ
+__pycache__/
+*.pyc
+
+# 仮想環境
+.venv/
+venv/
+
+# テスト用の入力ファイル
+in.txt
+
+# VS Code の個人設定
+.vscode/
+..
