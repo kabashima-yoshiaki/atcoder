@@ -5,5 +5,4 @@ for _ in range(q):
     l,r,x=map(int,input().split())
     for i in range(l-1,r):
         s[i].add(x)
-for s_i in s:
-    print(len(s_i),end=" ")
+

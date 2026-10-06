@@ -12,7 +12,9 @@ for i in range(n):
     ans.append(sum - med[i][1])
     sum -= med[i][1]
 is_first=False
+
 for i,a in enumerate(ans):
+
     if a <= k:
         if i == 0:
             print(1)
