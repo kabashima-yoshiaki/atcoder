@@ -19,3 +19,14 @@ def bfs(G, s):
                 q.append(nv)
     return dist
 
+N = 6
+edges = [(1, 2), (1, 3), (2, 4), (3, 4), (4, 5)]
+
+G = [[] for _ in range(N)]
+for a, b in edges:
+    a -= 1; b -= 1          # 1 始まり → 0 始まり
+    G[a].append(b)
+    G[b].append(a)          # 無向グラフなので両方向
+
+dist = bfs(G, 0)            # 頂点 1（index 0）から BFS
+print(dist)                 # [0, 1, 1, 2, 3, -1]
