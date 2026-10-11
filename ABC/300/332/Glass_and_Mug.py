@@ -10,4 +10,4 @@ for i in range(k):
         while m_t != 0 and g_t != g:
             m_t -= 1
             g_t += 1
-print(g_t, m_t)
+print(g_t, m_t)@
