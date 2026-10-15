@@ -42,11 +42,16 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "atcoder begginer contest/C問題/〇abc_426_c.md",
+=======
+                "file": "atcoder begginer contest/C問題/〇abc_479_c.md",
+>>>>>>> 3fa48a50c5165933848878935d6b88a2c62d2655
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "〇abc_426_c"
             }
           },
@@ -62,6 +67,9 @@
               },
               "icon": "lucide-file",
               "title": "〇abc_423_c"
+=======
+              "title": "〇abc_479_c"
+>>>>>>> 3fa48a50c5165933848878935d6b88a2c62d2655
             }
           }
         ],
@@ -255,11 +263,19 @@
   },
   "active": "484344b9883c56c7",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "atcoder begginer contest/C問題/〇abc_426_c.md",
     "atcoder begginer contest/C問題/〇abc_423_c.md",
     "atcoder begginer contest/C問題/×abc_422_c.md",
     "atcoder begginer contest/C問題/〇abc_383_c.md",
     "atcoder begginer contest/C問題/×abc_424_c.md",
+=======
+    "atcoder begginer contest/C問題/×abc_424_c.md",
+    "atcoder begginer contest/C問題/〇abc_479_c.md",
+    "atcoder begginer contest/C問題/〇abc_423_c.md",
+    "atcoder begginer contest/C問題/×abc_421_c.md",
+    "atcoder begginer contest/C問題/×abc_422_c.md",
+>>>>>>> 3fa48a50c5165933848878935d6b88a2c62d2655
     "atcoder begginer contest/D問題",
     "atcoder begginer contest/C問題",
     "ようこそ.md",
