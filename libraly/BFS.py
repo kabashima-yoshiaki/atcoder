@@ -30,3 +30,28 @@ for a, b in edges:
 
 dist = bfs(G, 0)            # 頂点 1（index 0）から BFS
 print(dist)                 # [0, 1, 1, 2, 3, -1]
+
+#===========================
+#多始点DFS
+#===========================
+
+def bfs(G, starts):
+    """
+    BFS（1始点・多始点どちらにも対応）
+    G      : 隣接リスト
+    starts : 開始頂点。整数 1 つ（例：0）またはリスト（例：[0, 3, 5]）
+    戻り値 : dist[v] = 一番近いスタートからの最短距離（行けない頂点は -1）
+    """
+    dist = [-1] * len(G)
+    q = deque()
+    for s in starts:
+        if dist[s] == -1:
+            dist[s] = 0
+            q.append(s)
+    while q:
+        v = q.popleft()
+        for nv in G[v]:
+            if dist[nv] == -1:
+                dist[nv] = dist[v] + 1
+                q.append(nv)
+    return dist

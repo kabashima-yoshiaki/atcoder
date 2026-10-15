@@ -25,4 +25,4 @@ while queue:
         if not learned[nv]:
             learned[nv] = True
             queue.append(nv)
-print(sum(learned))
+print(sum(learned))@
