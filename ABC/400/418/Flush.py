@@ -15,7 +15,6 @@ for i in range(q):
         continue
     else:
         idx = bisect.bisect_left(a, b)
-
         print(sum_a[idx] + (len(a) - idx)*(b-1) + 1)
 
 
