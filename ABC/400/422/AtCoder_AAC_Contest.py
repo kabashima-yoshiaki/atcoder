@@ -9,14 +9,15 @@ for _ in range(t):
     else:
         ans = nb
         na -= nb
-        nc -= nb
-        while na > 1 or nc > 1:
-            if na > nc:
-                na -= 2
-                nc -= 1
-            else:
-                nc -= 2
-                na -= 1
-            ans += 1
-            
+        nc -= nc
+        if na > nb:
+            pair = nb
+            naa =  na - pair
+
+        else:
+            pair = na
+            nbb = nb - pair
+        
+        
+
         print(ans)

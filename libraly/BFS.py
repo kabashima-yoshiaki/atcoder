@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # =====================
 # BFS（幅優先探索）
 # =====================
@@ -20,3 +19,39 @@ def bfs(G, s):
                 q.append(nv)
     return dist
 
+N = 6
+edges = [(1, 2), (1, 3), (2, 4), (3, 4), (4, 5)]
+
+G = [[] for _ in range(N)]
+for a, b in edges:
+    a -= 1; b -= 1          # 1 始まり → 0 始まり
+    G[a].append(b)
+    G[b].append(a)          # 無向グラフなので両方向
+
+dist = bfs(G, 0)            # 頂点 1（index 0）から BFS
+print(dist)                 # [0, 1, 1, 2, 3, -1]
+
+#===========================
+#多始点DFS
+#===========================
+
+def bfs(G, starts):
+    """
+    BFS（1始点・多始点どちらにも対応）
+    G      : 隣接リスト
+    starts : 開始頂点。整数 1 つ（例：0）またはリスト（例：[0, 3, 5]）
+    戻り値 : dist[v] = 一番近いスタートからの最短距離（行けない頂点は -1）
+    """
+    dist = [-1] * len(G)
+    q = deque()
+    for s in starts:
+        if dist[s] == -1:
+            dist[s] = 0
+            q.append(s)
+    while q:
+        v = q.popleft()
+        for nv in G[v]:
+            if dist[nv] == -1:
+                dist[nv] = dist[v] + 1
+                q.append(nv)
+    return dist

@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "99b61803135f2fc6",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9af645e39c946df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1436ac0cde17879d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "atcoder begginer contest/C問題/×abc_418_c.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "×abc_418_c"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "184290922736ffcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3981906147bcbfb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dbfd46554e8d76a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "170b459811b6f587",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "59260b7eee4e0415",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "85fe1b0136ed8a03",
+    "type": "split",
+    "children": [
+      {
+        "id": "db24192d9b6da8d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b12556fa0d3d1c9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "atcoder begginer contest/C問題/×abc_418_c.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "バックリンク"
+            }
+          },
+          {
+            "id": "2e7ccad951164da0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "atcoder begginer contest/C問題/×abc_418_c.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "アウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "07c275036e0b5540",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "6c22cf61c5e171a5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "d1d2dff127c6aa12",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "atcoder begginer contest/C問題/×abc_418_c.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "アウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:新規ベースを作成": false
+    }
+  },
+  "active": "1436ac0cde17879d",
+  "lastOpenFiles": [
+    "atcoder begginer contest/C問題/〇abc_426_c.md",
+    "atcoder begginer contest/C問題/×abc_418_c.md",
+    "atcoder begginer contest/C問題/×abc_419_c.md",
+    "atcoder begginer contest/C問題/〇abc_479_c.md",
+    "atcoder begginer contest/C問題/×abc_424_c.md",
+    "atcoder begginer contest/C問題/〇abc_383_c.md"
+  ]
+}
