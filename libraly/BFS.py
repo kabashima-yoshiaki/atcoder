@@ -4,6 +4,7 @@
 from collections import deque
 def bfs(G, s):
     """
+    https://github.com/kabashima-yoshiaki/atcoder/tree/main/libraly
     スタートからの最短距離（辺の本数）を求める。
     G：隣接リスト
     s:グラフの開始位置
