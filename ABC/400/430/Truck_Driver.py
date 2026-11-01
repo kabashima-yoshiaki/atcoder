@@ -1,10 +1,5 @@
 n,a,b=map(int,input().split())
 s=input()
-<<<<<<< ours
-
-for i in range(n):
-    
-=======
 count_a=[0]
 count_b=[0]
 for i in range(n):
@@ -25,4 +20,3 @@ for l in range(n):
         rb += 1
     ans += max(0, rb - ra)        
 print(ans)
->>>>>>> theirs
