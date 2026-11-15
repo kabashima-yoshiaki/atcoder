@@ -3,6 +3,7 @@ https://atcoder.jp/contests/abc482/tasks/abc482_e
 解けなかった。
 
 #### 木の直径の性質
+https://speakerdeck.com/tatyam_prime/gao-nan-yi-du-mu-wen-ti-wojie-kutekunitukuji?slide=26
 ##### 求め方
 1. 適当な頂点sから最も遠い頂点vを求める
 2. 頂点vから最も遠い頂点uを求める
